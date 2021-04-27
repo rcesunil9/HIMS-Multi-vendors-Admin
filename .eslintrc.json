@@ -1,0 +1,50 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jasmine": true,
+        "node":  true,
+        "es6":   true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:jasmine/recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": true,
+        "ecmaFeatures": {            
+            "jsx": true,
+            "experimentalObjectRestSpread": true,
+            "modules": true,
+            "module":  true 
+        },
+        "sourceType": "module",
+        "ecmaVersion": 6       
+    },
+    "plugins": [
+        "react",
+        "jasmine"
+    ],
+    "globals": {
+        "process": true,
+        "module": true
+    },
+    "rules": {        
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],        
+        "no-debugger": [
+            "warn"
+        ],
+        "react/prop-types": [
+            0
+        ],
+        "camelcase": 1
+    }
+}
